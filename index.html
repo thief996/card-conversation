@@ -21,9 +21,7 @@
       <a href="#how">怎麼使用</a>
       <a href="#shop">選購</a>
     </nav>
-    <button class="cart-pill" type="button" data-open-cart>
-      購物袋 <span data-cart-count>0</span>
-    </button>
+    <a class="order-pill" href="#shop">訂購表單</a>
   </header>
 
   <main id="top">
@@ -64,9 +62,8 @@
       </div>
     </section>
 
-    <section class="statement">
-      <p>有些話不是不想說，只是還沒有找到適合的字。</p>
-      <h2>抽一張卡，讓對話有個容易開始的地方。</h2>
+    <section class="title-banner statement">
+      <img src="assets/對話開始-標題圖.png" alt="有些話不是不想說，只是還沒有找到適合的字。抽一張卡，讓對話有個容易開始的地方。">
     </section>
 
     <section class="collection" id="cards">
@@ -85,7 +82,7 @@
           <p class="product-kicker">辨識當下情緒</p>
           <h3>感覺卡</h3>
           <p>把「還好」、「不知道」變成更具體的情緒語言，適合暖身、晤談與每日覺察。</p>
-          <button class="add-button" data-add="feeling">加入購物袋 <span>＋</span></button>
+          <a class="add-button" href="https://forms.gle/RAubpzDNVLbu5bgW9" target="_blank" rel="noopener">前往訂購表單 <span>↗</span></a>
         </article>
 
         <article class="product-card needs">
@@ -94,7 +91,7 @@
           <p class="product-kicker">看見情緒背後</p>
           <h3>需要卡</h3>
           <p>從感受往內多走一步，辨識真正重視的需要，讓溝通與行動更有方向。</p>
-          <button class="add-button" data-add="needs">加入購物袋 <span>＋</span></button>
+          <a class="add-button" href="https://forms.gle/RAubpzDNVLbu5bgW9" target="_blank" rel="noopener">前往訂購表單 <span>↗</span></a>
         </article>
 
         <article class="product-card stuck">
@@ -103,7 +100,7 @@
           <p class="product-kicker">說出負向卡點</p>
           <h3>我好卡</h3>
           <p>52 張貼近真實生活的卡點語彙，讓「我就爛」、「社死」、「害怕失敗」有機會被談論。</p>
-          <button class="add-button" data-add="stuck">加入購物袋 <span>＋</span></button>
+          <a class="add-button" href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">前往訂購表單 <span>↗</span></a>
         </article>
 
         <article class="product-card great">
@@ -112,7 +109,7 @@
           <p class="product-kicker">找到正向力量</p>
           <h3>你卡好</h3>
           <p>與我好卡逐張對應，從負向標籤走向另一種理解，把特質轉化成可運用的力量。</p>
-          <button class="add-button" data-add="great">加入購物袋 <span>＋</span></button>
+          <a class="add-button" href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">前往訂購表單 <span>↗</span></a>
         </article>
       </div>
     </section>
@@ -177,23 +174,25 @@
           <h3>雙卡套組</h3>
           <div class="price"><small>NT$</small>700</div>
           <p>感覺＋需要，或我好卡＋你卡好，完整串起一段對話。</p>
-          <button class="button primary" type="button" data-add-bundle="reflection">加入轉念雙卡</button>
+          <a class="button primary" href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">訂購轉念雙卡</a>
         </article>
         <article class="bundle">
           <span class="bundle-label">完整工具箱</span>
           <h3>四卡全套</h3>
           <div class="price"><small>NT$</small>1,400</div>
           <p>四盒完整收藏，從覺察、釐清一路走到轉化與行動。</p>
-          <button class="button dark" type="button" data-add-bundle="complete">加入完整套組</button>
+          <a class="button dark" href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">訂購完整套組</a>
         </article>
       </div>
       <p class="shipping-note">未滿四盒加收 NT$50 郵寄費；滿四盒免運。</p>
     </section>
 
-    <section class="closing">
-      <p class="eyebrow">START WITH ONE CARD</p>
-      <h2>今天，先好好聽見一個人。</h2>
-      <button class="button primary" type="button" data-open-cart>查看我的購物袋</button>
+    <section class="title-banner closing">
+      <img src="assets/好好聽見-標題圖.png" alt="Start with one card. 今天，先好好聽見一個人。">
+      <div class="form-links">
+        <a class="button primary" href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">訂購我好卡／你卡好</a>
+        <a class="button dark" href="https://forms.gle/RAubpzDNVLbu5bgW9" target="_blank" rel="noopener">訂購感覺卡／需要卡</a>
+      </div>
     </section>
   </main>
 
@@ -203,28 +202,5 @@
     <div><p>原始購買表單</p><a href="https://forms.gle/pJF5EZMwwSQ1Dfei9" target="_blank" rel="noopener">我好卡／你卡好</a><a href="https://forms.gle/RAubpzDNVLbu5bgW9" target="_blank" rel="noopener">感覺卡／需要卡</a></div>
   </footer>
 
-  <div class="cart-overlay" data-cart-overlay hidden>
-    <aside class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
-      <div class="cart-header">
-        <div><p class="eyebrow">YOUR SELECTION</p><h2 id="cart-title">我的購物袋</h2></div>
-        <button class="close-button" type="button" data-close-cart aria-label="關閉購物袋">×</button>
-      </div>
-      <div class="cart-items" data-cart-items></div>
-      <div class="cart-empty" data-cart-empty>
-        <p>購物袋目前是空的。</p>
-        <button class="text-link" type="button" data-close-cart>回去選牌卡</button>
-      </div>
-      <div class="cart-summary" data-cart-summary hidden>
-        <div><span>商品小計</span><strong data-subtotal>NT$0</strong></div>
-        <div><span>運費</span><strong data-shipping>NT$0</strong></div>
-        <div class="total"><span>合計</span><strong data-total>NT$0</strong></div>
-        <p class="checkout-hint">按下後會複製訂單摘要，並開啟對應的官方 Google 訂購表單完成收件與付款資料。</p>
-        <button class="button primary checkout" type="button" data-checkout>前往官方表單下單</button>
-        <p class="copy-status" data-copy-status aria-live="polite"></p>
-      </div>
-    </aside>
-  </div>
-
-  <script src="app.js"></script>
 </body>
 </html>
