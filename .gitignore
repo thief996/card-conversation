@@ -1,0 +1,8 @@
+# Local working folders that are not part of the published card site.
+人生牌庫/
+
+# OS and editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
+
